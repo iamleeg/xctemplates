@@ -48,8 +48,6 @@
 			<dict>
 				<key>UITableViewCell</key>
 				<string>Cell</string>
-				<key>UITableViewController</key>
-				<string>ViewController</string>
 				<key>UIViewController</key>
 				<string>ViewController</string>
 			</dict>
@@ -58,10 +56,7 @@
 			<key>Values</key>
 			<array>
 				<string>NSObject</string>
-				<string>UIView</string>
 				<string>UIViewController</string>
-				<string>UITableViewController</string>
-				<string>UITableViewCell</string>
 			</array>
 		</dict>
 		<dict>
@@ -76,7 +71,6 @@
 				<key>cocoaTouchSubclass</key>
 				<array>
 					<string>UIViewController</string>
-					<string>UITableViewController</string>
 				</array>
 			</dict>
 			<key>Type</key>
@@ -94,28 +88,10 @@
 				<key>cocoaTouchSubclass</key>
 				<array>
 					<string>UIViewController</string>
-					<string>UITableViewController</string>
 				</array>
 			</dict>
 			<key>Type</key>
 			<string>checkbox</string>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>usingARC</string>
-			<key>Name</key>
-			<string>CLANG_ENABLE_OBJC_ARC</string>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>cocoaTouchSubclass</key>
-				<string>UITableViewController</string>
-			</dict>
-			<key>Type</key>
-			<string>buildSetting</string>
-			<key>Values</key>
-			<array>
-				<string>NO</string>
-			</array>
 		</dict>
 	</array>
 	<key>Platforms</key>
